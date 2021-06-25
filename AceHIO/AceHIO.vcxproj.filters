@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp" />
+    <ClCompile Include="minhook\hde\hde32.c" />
+    <ClCompile Include="minhook\hde\hde64.c" />
+    <ClCompile Include="minhook\buffer.c" />
+    <ClCompile Include="minhook\hook.c" />
+    <ClCompile Include="minhook\trampoline.c" />
+    <ClCompile Include="funchook\funchook.cpp" />
+    <ClCompile Include="controllers\playercontroller\playercontroller.cpp" />
+    <ClCompile Include="memdata\memdata.cpp" />
+    <ClCompile Include="controllers\userservicecontroller\userservicecontroller.cpp" />
+    <ClCompile Include="functions\functions.cpp" />
+    <ClCompile Include="controllers\playercontroller\ballmovement\ballmovement.cpp" />
+    <ClCompile Include="unityengine\transform\transform.cpp" />
+    <ClCompile Include="unityengine\transform\vector3\vector3.cpp" />
+    <ClCompile Include="controllers\gamecontroller\gamecontroller.cpp" />
+    <ClCompile Include="unityengine\list\list.cpp" />
+    <ClCompile Include="unityengine\rigidbody\rigidbody.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="minhook\hde\hde32.h" />
+    <ClInclude Include="minhook\hde\hde64.h" />
+    <ClInclude Include="minhook\hde\pstdint.h" />
+    <ClInclude Include="minhook\hde\table32.h" />
+    <ClInclude Include="minhook\hde\table64.h" />
+    <ClInclude Include="minhook\buffer.h" />
+    <ClInclude Include="minhook\minhook.h" />
+    <ClInclude Include="minhook\trampoline.h" />
+    <ClInclude Include="memdata\memdata.h" />
+    <ClInclude Include="funchook\funchook.h" />
+    <ClInclude Include="controllers\playercontroller\playercontroller.h" />
+    <ClInclude Include="controllers\userservicecontroller\userservicecontroller.h" />
+    <ClInclude Include="functions\functions.h" />
+    <ClInclude Include="main\main.h" />
+    <ClInclude Include="controllers\playercontroller\ballmovement\ballmovement.h" />
+    <ClInclude Include="unityengine\transform\transform.h" />
+    <ClInclude Include="unityengine\transform\vector3\vector3.h" />
+    <ClInclude Include="controllers\gamecontroller\gamecontroller.h" />
+    <ClInclude Include="unityengine\list\list.h" />
+    <ClInclude Include="unityengine\rigidbody\rigidbody.h" />
+  </ItemGroup>
+</Project>
